@@ -1,0 +1,207 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+/*==================header-section-started===================*/
+/*==================header-section-end =======================*/
+/*==================about-section-started=====================*/
+/*==================about-section-end=========================*/
+/*==================ervice-section-started====================*/
+/*==================service-section-end=======================*/
+/*==================portfolio-section-started=================*/
+/*==================portfolio-section-end=====================*/
+/*==================blog-section-started======================*/
+/*==================blog-section-end==========================*/
+/*==================counter-section-started===================*/
+/*==================counter-section-end=======================*/
+/*==================UPDATE-VERSION-started====================*/
+/*==================UPDATE VERSION-section-end================*/
+/*==================contact-section-started===================*/
+/*==================contect-section-end=======================*/
+/*===================foooter-section-started==================*/
+/*===================foooter-section-end======================*/
+/*===================copyright-section-started================*/
+/*===================copyright-section-end====================*/
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+/*==================header-section-started===================*/
+/*==================header-section-end =======================*/
+/*==================about-section-started=====================*/
+/*==================about-section-end=========================*/
+/*==================ervice-section-started====================*/
+/*==================service-section-end=======================*/
+/*==================portfolio-section-started=================*/
+/*==================portfolio-section-end=====================*/
+/*==================blog-section-started======================*/
+/*==================blog-section-end==========================*/
+/*==================counter-section-started===================*/
+/*==================counter-section-end=======================*/
+/*==================UPDATE-VERSION-started====================*/
+/*==================UPDATE VERSION-section-end================*/
+/*==================contact-section-started===================*/
+/*==================contect-section-end=======================*/
+/*===================foooter-section-started==================*/
+/*===================foooter-section-end======================*/
+/*===================copyright-section-started================*/
+/*===================copyright-section-end====================*/
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+/*==================header-section-started===================*/
+/*==================header-section-end =======================*/
+/*==================about-section-started=====================*/
+/*==================about-section-end=========================*/
+/*==================ervice-section-started====================*/
+/*==================service-section-end=======================*/
+/*==================portfolio-section-started=================*/
+/*==================portfolio-section-end=====================*/
+/*==================blog-section-started======================*/
+/*==================blog-section-end==========================*/
+/*==================counter-section-started===================*/
+/*==================counter-section-end=======================*/
+/*==================UPDATE-VERSION-started====================*/
+/*==================UPDATE VERSION-section-end================*/
+/*==================contact-section-started===================*/
+/*==================contect-section-end=======================*/
+/*===================foooter-section-started==================*/
+/*===================foooter-section-end======================*/
+/*===================copyright-section-started================*/
+/*===================copyright-section-end====================*/
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+/* CSS */
+/*==================header-section-started===================*/
+/*==================header-section-end =======================*/
+/*==================about-section-started=====================*/
+/*==================about-section-end=========================*/
+/*==================ervice-section-started====================*/
+/*==================service-section-end=======================*/
+/*==================portfolio-section-started=================*/
+/*==================portfolio-section-end=====================*/
+/*==================blog-section-started======================*/
+/*==================blog-section-end==========================*/
+/*==================counter-section-started===================*/
+/*==================counter-section-end=======================*/
+/*==================UPDATE-VERSION-started====================*/
+/*==================UPDATE VERSION-section-end================*/
+/*==================contact-section-started===================*/
+/*==================contect-section-end=======================*/
+/*===================foooter-section-started==================*/
+/*===================foooter-section-end======================*/
+/*===================copyright-section-started================*/
+/*===================copyright-section-end====================*/
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+/*==================header-section-started===================*/
+/*==================header-section-end =======================*/
+/*==================about-section-started=====================*/
+/*==================about-section-end=========================*/
+/*==================ervice-section-started====================*/
+/*==================service-section-end=======================*/
+/*==================portfolio-section-started=================*/
+/*==================portfolio-section-end=====================*/
+/*==================blog-section-started======================*/
+/*==================blog-section-end==========================*/
+/*==================counter-section-started===================*/
+/*==================counter-section-end=======================*/
+/*==================UPDATE-VERSION-started====================*/
+/*==================UPDATE VERSION-section-end================*/
+/*==================contact-section-started===================*/
+/*==================contect-section-end=======================*/
+/*===================foooter-section-started==================*/
+/*===================foooter-section-end======================*/
+/*===================copyright-section-started================*/
+/*===================copyright-section-end====================*/
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  /*==================header-section-started===================*/
+/*==================header-section-end =======================*/
+
+
+/*==================banner-section-started=====================*/
+.banner-content h2{
+ font-size: 18px;
+}
+.select-icon::after{
+  right: 30px;
+}
+
+/*==================banner-section-end=========================*/
+
+
+
+
+/*==================ervice-section-started====================*/
+/*==================service-section-end=======================*/
+/*==================portfolio-section-started=================*/
+/*==================portfolio-section-end=====================*/
+/*==================blog-section-started======================*/
+/*==================blog-section-end==========================*/
+/*==================counter-section-started===================*/
+/*==================counter-section-end=======================*/
+/*==================UPDATE-VERSION-started====================*/
+/*==================UPDATE VERSION-section-end================*/
+/*==================contact-section-started===================*/
+/*==================contect-section-end=======================*/
+/*===================foooter-section-started==================*/
+/*===================foooter-section-end======================*/
+/*===================copyright-section-started================*/
+/*===================copyright-section-end====================*/
+
+
+  
+}
+    
+  

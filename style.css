@@ -1,0 +1,337 @@
+/* ==================================================================
+Template Name :My first Project
+Template URI:https://www.photopea.com/
+Description:none
+Author:Sheikh Mukul Hossen
+Author URI:Sheikhmukulhossen.com 
+Version: 5.6.0
+-------------------------------------------
+CSS INDEX
+===================================================================  */
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf');
+    src: local('poppins');
+    src: url('fonts/Poppins-Medium.ttf');
+    src: url('fonts/Poppins-Black.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+}
+ol, ul {
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.fix {
+    overflow: hidden;
+}
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none !important;
+}
+a:focus,
+select:focus,
+input:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+a{
+    color: var(--black);
+}
+a,
+button {
+    outline: none !important;
+}
+::placeholder{
+    color: #000;
+}
+
+:root {
+    --primary: #00ffff;
+    --secondary: #10103d;
+    --white: #fff;
+    --black: #000;
+    --blue: #f19d1f;
+    --green: #1baf5d;
+    --button-color:#e94d37;
+    --gray:#f3f1f2;
+    --transparent: #00000000;
+}
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: var(--secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--primary);
+}
+
+
+/* scrollbar end */
+.pt{
+    padding-top: 70px;
+}
+.pb{
+    padding-bottom: 80px;
+}
+.all-section-fix{
+    overflow: hidden;
+}
+/*==================header-section-started===================*/
+.header-section {
+    position: sticky;
+    top: 0;
+    z-index: 1 !important;
+    background: #ffff;
+}
+.navbar-nav,
+.search,
+.login{
+    float: left;
+}
+.navbar {
+ padding: 0px;
+ margin: 0px;
+}
+.navbar-brand {
+ padding: 0;
+ margin: 0;
+}
+.navbar-brand img{
+    margin-top: 6px;
+}
+.main-menu .header-iteam .navbar-nav li a{
+    color: #000;
+    text-transform: uppercase;
+    font-family:Poppins;
+    padding: 18px;
+}
+.search a{
+    font-size: 18px;
+    padding: 17px 24px;
+    color:var(--white);
+    text-align: center;
+    background: var(--gray);
+    display:inline-block;
+}
+.login a{
+    position: relative;
+    font-size: 18px;
+    padding: 17px 24px;
+    background: var(--button-color);
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: Poppins; 
+    display:inline-block;
+}
+.login i{
+    font-size: 18px;
+    padding-right: 10px;
+    display: inline-block;
+} 
+.login a::after{
+    position: absolute;
+   content: '';
+   left: 100%;
+   top: 0;
+   right: -500px;
+   bottom: 0;
+   background: var(--button-color);
+}
+/*==================header-section-end =======================*/
+
+
+
+/*==================banner-section-started=====================*/
+.banner-section{
+ background: url(img/bannner-img/banner-img.png);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 80px 0px;
+ background-attachment: fixed;
+}
+.banner-content h2{
+    color: #fff;
+}
+.banner-content select {
+    color: #fff;
+}
+.banner-content .form-control{
+    height: 50px;
+    background: #5d5b53;
+    border-radius: 30px;
+    padding: 6px 30px;
+    color: #fff;
+}
+.banner-content .form-control::-webkit-input-placeholder{
+    color: #fff;
+}
+.banner-content .form-control::-moz-placeholder{
+    color: #fff;
+}
+.banner-content .form-control:-moz-placeholder{
+    color: #fff;
+}
+.banner-content .form-control:-ms-placeholder{
+    color: #fff;
+}
+.select-icon{
+    position: relative;
+}
+.select-icon::after{
+    content: "\f107";
+    position: absolute;
+    right: 20px;
+    top: 0;
+    font-family: "FontAwesome";
+    color: var(--white);
+    font-size: 35px;
+    cursor: pointer;
+    pointer-events: none;
+}
+.common-button a{
+    padding: 12px 30px;
+    background: var(--button-color);
+    border-radius: 30px;
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: poppins;
+}
+/*==================banner-section-end=========================*/
+
+
+
+/*==================recommended-section-section-started====================*/
+.recommended-list {
+    margin-top: 12px;
+}
+.recommended-contend li a{
+ text-transform: uppercase;
+ font-family: poppins;
+ font-size: 16px;
+ color: #e5e9e9;
+}
+.recommended-list .recommended-contend .active a{
+    color: #ee7969;
+} 
+
+.recommended-search-part .form-control{
+  height: 50px;
+  border-radius: 30px;
+  padding: 6px 30px;
+  color: var(--button-color);
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.select-icon{
+    position: relative;
+}
+.select-icon::after{
+    content: "\f107";
+    position: absolute;
+    right: 20px;
+    top: 0;
+    font-family: "FontAwesome";
+    color: #d5dbdc;
+    font-size: 35px;
+    cursor: pointer;
+    pointer-events: none;
+}
+.filter-submit .form-control{
+    color: var(--black);
+    padding: 6px 30px;
+}
+.filter-submit{
+    position: relative;
+}
+.filter-submit::after{
+    content: "\f041";
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    font-family: "FontAwesome";
+    color: #d5dbdc;
+    font-size: 25px;
+    cursor: pointer;
+    pointer-events: none;
+}
+.filter-icon-part ul li span{
+    color: #9dacad;
+    text-transform: uppercase;
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 20px;
+}
+.filter-icon-part ul li a i{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--white);
+    font-size: 30px;
+    transition: .3s;
+}
+.filter-icon-part .filter-list01 a i{
+    background: #1baf5d;
+}
+.filter-icon-part .filter-list02 a i{
+    background: var(--gray);
+}
+.filter-icon-part .filter-list03 a i{
+    background: var(--gray);
+}
+.filter-icon-part .filter-list04 a i{
+    background: #f19d1f;
+}
+.filter-icon-part .filter-list05 a i{
+    background: #87499b;
+}
+
+/*==================recommended-section-section-end=======================*/
+
+
+
+
+
+/*==================portfolio-section-started=================*/
+/*==================portfolio-section-end=====================*/
+/*==================blog-section-started======================*/
+/*==================blog-section-end==========================*/
+/*==================counter-section-started===================*/
+/*==================counter-section-end=======================*/
+/*==================UPDATE-VERSION-started====================*/
+/*==================UPDATE VERSION-section-end================*/
+/*==================contact-section-started===================*/
+/*==================contect-section-end=======================*/
+/*===================foooter-section-started==================*/
+/*===================foooter-section-end======================*/
+/*===================copyright-section-started================*/
+/*===================copyright-section-end====================*/
